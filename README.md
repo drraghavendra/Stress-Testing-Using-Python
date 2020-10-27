@@ -3,6 +3,10 @@
 
 Stress testing is a software testing activity that determines the robustness of software by testing beyond the limits of normal operation. Stress testing is particularly important for "mission critical" software, but is used for all types of software. Stress tests commonly put a greater emphasis on robustness, availability, and error handling under a heavy load, than on what would be considered correct behavior under normal circumstances.
 
+A collection of scripts to generate common competitive programming testcases on Linux Operating System.
+
+
+
 What is Stress Testing?
 
 
