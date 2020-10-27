@@ -22,8 +22,10 @@ Let the stress testing begin! Run test.sh and let it do the hard work for you. O
 What does each file do?
 
 gen.py : Use this to generate random testcases by invoking the various functions provided
-    check.py : Script used by test.sh to check if outputs of the two executable programs match.
-    test.sh : This shell scripts creates a random testcase, runs two exectuables simultaneously on the random testcase and checks if the outputs match. It repeats this for 10,000 random test cases.
+
+check.py : Script used by test.sh to check if outputs of the two executable programs match.
+
+test.sh : This shell scripts creates a random testcase, runs two exectuables simultaneously on the random testcase and checks if the outputs match. It repeats this for 10,000 random test cases.
 
 
 Note: Supports Linux Operating System only
