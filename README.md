@@ -1,5 +1,6 @@
 # Stress-Testing-Using-Python
 
+
 Stress testing is a software testing activity that determines the robustness of software by testing beyond the limits of normal operation. Stress testing is particularly important for "mission critical" software, but is used for all types of software. Stress tests commonly put a greater emphasis on robustness, availability, and error handling under a heavy load, than on what would be considered correct behavior under normal circumstances.
 
 What is Stress Testing?
@@ -17,7 +18,8 @@ Let the stress testing begin! Run test.sh and let it do the hard work for you. O
 What does each file do?
 
 gen.py : Use this to generate random testcases by invoking the various functions provided
-check.py : Script used by test.sh to check if outputs of the two executable programs match.
-test.sh : This shell scripts creates a random testcase, runs two exectuables simultaneously on the random testcase and checks if the outputs match. It repeats this for 10,000 random test cases.
+    check.py : Script used by test.sh to check if outputs of the two executable programs match.
+    test.sh : This shell scripts creates a random testcase, runs two exectuables simultaneously on the random testcase and checks if the outputs match. It repeats this for 10,000 random test cases.
 
 
+Note: Supports Linux Operating System only
